@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-decoration: none !important;
+}
+
+a:link {
+    color: #9F6167;
+  }
+  
+  a:visited {
+    color: #9F6167;
+  }
+  
+  a:hover {
+    color: #411623;
+  }
+  
+  a:active {
+    color: #411623;
+  }
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.brand {
+    padding-bottom: 100px;
+}
+
+.h3-dark {
+    padding-bottom: 10px;
+}
+
+.content-container {
+    display: block;
+    max-width: 40%;
+    padding: 4rem 4rem 4rem;
+}
+
+.content-block {
+    padding-bottom: 45px;
+}
+
+#triangle-a {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid #9F6167;
+    float: left;
+    animation-name: a;
+    animation-duration: 1s;
+    animation-delay: .5s;
+  }
+
+#triangle-m {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid #411623;
+    float: left;
+    animation-name: a;
+    animation-duration: 1s;
+    animation-delay: .6s;
+  }
+
+#triangle-mm {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 30px solid #411623;
+    float: left;
+    animation-name: a;
+    animation-duration: 1s;
+    animation-delay: .7s;
+  }
+
+.contact {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+@keyframes a {
+    from {
+        opacity: 0;
+        margin-top: 20px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0px;
+    }
+  }

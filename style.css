@@ -1,111 +1,186 @@
 body {
-    background-color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: -0.25px;
 }
 
-a {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.3rem;
-    line-height: 1.5;
-    text-decoration: none !important;
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: -0.5px;
 }
-
-a:link {
-    color: #9F6167;
-  }
-  
-  a:visited {
-    color: #9F6167;
-  }
-  
-  a:hover {
-    color: #411623;
-  }
-  
-  a:active {
-    color: #411623;
-  }
 
 h2 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.6rem;
-    font-weight: 700;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 h3 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.3rem;
-    line-height: 1.5;
+  font-size: 1rem;
 }
 
-.brand {
-    padding-bottom: 100px;
+a:visited {
+  color: #9f6167;
 }
 
-.h3-dark {
-    padding-bottom: 10px;
+a:hover {
+  color: #411623;
 }
 
-.content-container {
-    display: block;
-    max-width: 40%;
-    padding: 4rem 4rem 4rem;
+a:active {
+  color: #411623;
+}
+
+ul {
+  padding-left: 1rem;
+  list-style-type: circle;
+}
+
+@media (min-width: 375px) {
+  body {
+    font-size: 16px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  li,
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+footer {
+  padding-right: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #9f6167;
+  color: white;
+  text-align: right;
+}
+
+.logo {
+  margin: 1rem;
+  width: 100%;
+  padding-bottom: 4rem;
+}
+
+.headline {
+  max-width: 425px;
+  padding-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .headline {
+    max-width: 576px;
+  }
+}
+
+main {
+  max-width: 768px;
+  padding: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+  }
 }
 
 .content-block {
-    padding-bottom: 45px;
+  padding-bottom: 45px;
 }
 
 #triangle-a {
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 30px solid #9F6167;
-    float: left;
-    animation-name: a;
-    animation-duration: 1s;
-    animation-delay: .5s;
-  }
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid #9f6167;
+  float: left;
+  animation-name: a;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+}
 
 #triangle-m {
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 30px solid #411623;
-    float: left;
-    animation-name: a;
-    animation-duration: 1s;
-    animation-delay: .6s;
-  }
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid #411623;
+  float: left;
+  animation-name: a;
+  animation-duration: 1s;
+  animation-delay: 0.6s;
+}
 
 #triangle-mm {
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
-    border-bottom: 30px solid #411623;
-    float: left;
-    animation-name: a;
-    animation-duration: 1s;
-    animation-delay: .7s;
-  }
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid #411623;
+  float: left;
+  animation-name: a;
+  animation-duration: 1s;
+  animation-delay: 0.7s;
+}
 
 .contact {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding-right: 50px;
-    padding-bottom: 50px;
+  margin-left: auto;
+}
+
+button {
+  color: #9f6167;
+  background-color: #fff;
+  border: 1px solid #411623;
+  font-size: 1.5rem;
+  -webkit-box-shadow: 5px 5px 0px 0px #9f6167; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 5px 5px 0px 0px #9f6167; /* Firefox 3.5 - 3.6 */
+  box-shadow: 5px 5px 0px 0px #9f6167; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+button:hover {
+  color: #411623;
 }
 
 @keyframes a {
-    from {
-        opacity: 0;
-        margin-top: 20px;
-    }
-    to {
-        opacity: 1;
-        margin-top: 0px;
-    }
+  from {
+    opacity: 0;
+    margin-top: 20px;
   }
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}

@@ -34,7 +34,7 @@ a:active {
 }
 
 ul {
-  padding-left: 1rem;
+  padding-left: 2rem;
   list-style-type: circle;
 }
 
@@ -56,6 +56,10 @@ ul {
   li {
     margin-bottom: 0.25rem;
   }
+
+  .logo {
+    padding-top: 2rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -74,11 +78,15 @@ ul {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
+
+  .logo {
+    padding-top: 2rem;
+  }
 }
 
 footer {
   padding-right: 1rem;
-  position: fixed;
+  position: static;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -91,6 +99,7 @@ footer {
   margin: 1rem;
   width: 100%;
   padding-bottom: 4rem;
+  padding-top: 8rem;
 }
 
 .headline {
@@ -157,6 +166,7 @@ main {
 
 .contact {
   margin-left: auto;
+  padding-bottom: 3rem;
 }
 
 button {
@@ -165,6 +175,8 @@ button {
   border: 2px solid #9f6167;
   font-size: 1.5rem;
   padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-top: 2rem;
 }
 

@@ -61,6 +61,7 @@ ul {
 @media (min-width: 768px) {
   h1 {
     font-size: 3rem;
+    margin-bottom: 1.75rem;
   }
 
   h2 {

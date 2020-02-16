@@ -161,16 +161,14 @@ main {
 button {
   color: #9f6167;
   background-color: #fff;
-  border: 1px solid #411623;
+  border: 2px solid #9f6167;
   font-size: 1.5rem;
-  -webkit-box-shadow: 5px 5px 0px 0px #9f6167; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow: 5px 5px 0px 0px #9f6167; /* Firefox 3.5 - 3.6 */
-  box-shadow: 5px 5px 0px 0px #9f6167; /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   padding: 0.5rem;
   margin-top: 2rem;
 }
 
 button:hover {
+  border-color: #411623;
   color: #411623;
 }
 

@@ -34,9 +34,39 @@ a:active {
 }
 
 ul {
-  padding-left: 1rem;
+  padding-left: 2rem;
   list-style-type: circle;
 }
+
+.logo {
+  margin: 1rem;
+  width: 100%;
+  padding-bottom: 4rem;
+  padding-top: 8rem;
+}
+
+.contact {
+  margin-left: auto;
+  padding-bottom: 2rem;
+}
+
+button {
+  color: #9f6167;
+  background-color: #fff;
+  border: 2px solid #9f6167;
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .logo {
+      padding-top: 3rem;
+    }
+  }
 
 @media (min-width: 375px) {
   body {
@@ -56,6 +86,19 @@ ul {
   li {
     margin-bottom: 0.25rem;
   }
+
+  .logo {
+    padding-top: 3rem;
+  }
+
+  .contact {
+    padding-top: 0.1rem;
+    padding-bottom: .5rem;
+  }
+
+  button {
+    margin-top: 1rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -74,23 +117,17 @@ ul {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
+
+  .logo {
+    padding-top: 3rem;
+  }
 }
 
 footer {
-  padding-right: 1rem;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   background-color: #9f6167;
   color: white;
-  text-align: right;
-}
-
-.logo {
-  margin: 1rem;
+  text-align: center;
   width: 100%;
-  padding-bottom: 4rem;
 }
 
 .headline {
@@ -155,17 +192,8 @@ main {
   animation-delay: 0.7s;
 }
 
-.contact {
-  margin-left: auto;
-}
-
-button {
-  color: #9f6167;
-  background-color: #fff;
-  border: 2px solid #9f6167;
-  font-size: 1.5rem;
-  padding: 0.5rem;
-  margin-top: 2rem;
+.final-content {
+  padding-top: 1rem;
 }
 
 button:hover {

@@ -163,6 +163,8 @@ main {
   border-right: 15px solid transparent;
   border-bottom: 30px solid #9f6167;
   float: left;
+  opacity: 0;
+  margin-top: 20px;
   animation-name: a;
   animation-duration: 1s;
   animation-delay: 0.5s;
@@ -175,6 +177,8 @@ main {
   border-right: 15px solid transparent;
   border-bottom: 30px solid #411623;
   float: left;
+  opacity: 0;
+  margin-top: 20px;
   animation-name: a;
   animation-duration: 1s;
   animation-delay: 0.6s;
@@ -187,6 +191,8 @@ main {
   border-right: 15px solid transparent;
   border-bottom: 30px solid #411623;
   float: left;
+  opacity: 0;
+  margin-top: 20px;
   animation-name: a;
   animation-duration: 1s;
   animation-delay: 0.7s;
